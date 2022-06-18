@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+:root {
+  --primary-color: hsl(0, 0%, 98%);
+  --secundary-color: rgb(243, 243, 243);
+  --border-color: rgb(211, 205, 205);
+  --buuton: #0095f6;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--secundary-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vh;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+/*Celular*/
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.cell img {
+  height: 50rem;
+}
+
+/*Login-Container*/
+.login-container {
+  padding-block: 10rem;
+  padding-inline: 4rem;
+
+  display: flex;
+  align-items: center; /*horizontal*/
+  flex-direction: column;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border: 1px solid rgb(202, 202, 202);
+  width: 100%;
+  padding: 1.3rem 0;
+  margin-bottom: 1rem;
+}
+
+.group2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border: 1px solid rgb(202, 202, 202);
+  width: 100%;
+  padding: 1.3rem 0;
+  margin-bottom: 1rem;
+}
+
+.insta-logo {
+  height: 3rem;
+}
+
+.profile-photo img {
+  height: 7rem;
+}
+
+.profile-photo {
+  margin-block: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.group1 button {
+  background-color: var(--buuton);
+  color: antiquewhite;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: #0095f6;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.group2 p a {
+  font-size: 14px;
+  color: var(--buuton);
+  font-weight: bold;
+}
+
+.get-the-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.get-the-app img {
+  height: 2.7rem;
+}
+.get-the-app p {
+  padding-block: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  padding-inline: 1rem;
+}
+
+footer p {
+  font-size: 0.8rem;
+  padding: 1rem;
+  padding-block: 0.3rem;
+}
