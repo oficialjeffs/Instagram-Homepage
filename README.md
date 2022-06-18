@@ -1,18 +1,10 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
-
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
-
-## 🚀 Let's code! 🚀
-
-
-
-# Nome
- Breve resumo
-
+# HomePage Instagram
+ Este é um desafio que recebi da D.I.O.
 
 # Sobre:
   <p>
-
+    Esta pág do instagram, foi feita com o objetivo de cumprir um desafio, onde o foco era trabalhar os aprendizados adquiridos no curso de FlexBox da D.I.O.
+    De todo modo, foi muito gratificante poder ver meu aprendizado teórico evoluindo com a prática neste desafio.
   </p>
 
   <br>
@@ -22,7 +14,7 @@ Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface
 # Layot do Projeto:
 
   <div>
-    <img alt="Jeff-Imagem" src="" style= "object-fit:    contain;       width: 700px; height: auto; " > 
+    <img alt="Jeff-Imagem" src="https://discord.com/channels/@me/524270584645943296/987835721689735220" style= "object-fit:    contain;       width: 700px; height: auto; " > 
   </div>
 
 
@@ -33,7 +25,6 @@ Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface
     <hr>
     <li>HTML - Estruturação</li>
     <li>CSS- Estilização</li>
-    <li>Java Script - Animação e Processo</li>
    	<hr>
   </ul>
 
@@ -42,8 +33,6 @@ Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface
 
 * [HTML básico](https://www.w3schools.com/html/)
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-
 
 
 # Autor:
