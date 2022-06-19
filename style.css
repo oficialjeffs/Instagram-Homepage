@@ -122,7 +122,7 @@ body {
 }
 
 .get-the-app img {
-  height: 2.7rem;
+  height: 2.5rem;
 }
 .get-the-app p {
   padding-block: 1rem;
@@ -142,4 +142,43 @@ footer p {
   font-size: 0.8rem;
   padding: 1rem;
   padding-block: 0.3rem;
+}
+
+
+
+/*-----MEDIA QUERIES---------*/
+
+@media (max-width: 1240px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 955px) {
+  .wrapper {
+    width: 100%;
+  }
+  .cell {
+    display: none;
+  }
+
+  .login-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .wrapper {
+    width: 100%;
+  }
+  .cell {
+    display: none;
+  }
+
+  .login-container {
+    width: 100%;
+  }
+  .get-the-app img {
+    height: 2.2rem;
+  }
 }
